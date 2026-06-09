@@ -1,0 +1,19 @@
+# Force common scanner/probe paths to a static CDN-level 404 response.
+/wp-login.php /404.html 404!
+/wp-admin /404.html 404!
+/wp-admin/ /404.html 404!
+/wp-json /404.html 404!
+/wp-json/ /404.html 404!
+/wp-json/* /404.html 404!
+/.git/config /404.html 404!
+/mcp /404.html 404!
+/sse /404.html 404!
+/ads.txt /404.html 404!
+/blog /404.html 404!
+/blog/ /404.html 404!
+/backup /404.html 404!
+/backup/ /404.html 404!
+/new /404.html 404!
+/new/ /404.html 404!
+/old /404.html 404!
+/old/ /404.html 404!
